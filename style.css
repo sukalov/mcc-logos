@@ -1,0 +1,89 @@
+@font-face {
+    font-family:"Rodchenko";
+    src: url("/Rodchenko.ttf") format("truetype");
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #f4f3e4;
+}
+
+:root {
+    --mcc-green: #1c8454;
+    --mcc-red: #eb5344;
+    --mcc-yellowl: #cc9c3c;
+    --mcc-yellowd: #c78337;
+}
+
+body{
+    background-color: #111;
+    margin:30px;
+    font-family: rodchenko, sans-serif;
+    font-size: 12rem;
+    font-weight: 700;
+}
+
+.side_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    aspect-ratio: 1/1;
+    max-height: 85vh;
+    max-width: 80%;
+    
+    border-radius: 22.37%;
+    border: 20px solid #302f27;
+}
+
+.square {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+.s1{
+    background-color: #f4f3e4;
+}
+.s2{
+    background-color: #342c24;
+}
+.s3{
+    background-color: #f4f3e4;
+}
+.s4{
+    background-color: var(--mcc-green);
+}
+.s5{
+    background-color: #f4f3e4;
+}
+.s6{
+    background-color: #342c24;
+}
+.s7{
+    background-color: #f4f3e4;
+}
+.s8{
+    background-color: #342c24;
+}
+.s9{
+    background-color: var(--mcc-yellowd);
+}
+.css_logo {
+    background-color: pink;
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 600px;
+}
